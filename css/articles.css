@@ -1,0 +1,104 @@
+.card{
+    padding: 13px 22px;
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5px;
+}
+.name{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.status{
+    font-size: 11px;
+    color: var(--grey-100);
+    font-weight: 500;
+   
+}
+
+.card-daniel{
+    grid-area: daniel;
+    background-color: var(--purple-500);
+    background-image: url(../img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 1rem bottom 5rem;
+    background-size: 104px auto;
+}
+
+.card-daniel .headline {
+    color: var(--white);
+}
+.card-jonathan{
+    grid-area: jonathan;
+    background-color: var(--grey-500);
+}
+
+.card-jonathan .headline {
+    color: var(--white);
+}
+
+.card-jonathan .status, .card-jonathan .testimonial{
+    color: var(--grey-200);
+}
+.card-jeanette{
+    grid-area: jeanette;
+    background-color: var(--white);
+}
+
+.card-jeanette .name{
+    color: var(--dark-blue);
+}
+
+.card-jeanette .status,.card-jeanette .testimonial{
+    color: var(--grey-400);
+}
+.card-jeanette .headline{
+    color: var(--dark-blue);
+}
+
+.card-patrick{
+    grid-area: patrick;
+    background-color: var(--dark-blue);
+}
+
+.card-patrick .headline , .card-patrick .testimonial{
+    color: var(--grey-200);
+}
+
+.card-kira{
+    grid-area: kira;
+    background-color: var(--white);
+}
+
+.card-kira .name{
+    color: var(--dark-blue);
+}
+
+.card-kira .status, .card-kira .testimonial{
+    color: var(--grey-400); 
+}
+
+.card-kira .headline{
+    color: var(--dark-blue);
+}
+
