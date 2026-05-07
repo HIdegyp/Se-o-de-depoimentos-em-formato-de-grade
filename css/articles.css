@@ -136,30 +136,17 @@ main{
     color: var(--dark-blue);
 }
 
-@media (max-width: 1024px){
-    main{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "daniel daniel"
-            "jonathan kira"
-            "jeanette kira"
-            "patrick patrick";
-    }
 
-    .card-kira{
-        grid-row: auto;
-    }
+
+@media (max-width: 375px){
+main{
+    padding: 25px 16px 22px;
+grid-template-columns: 1fr;
+grid-template-areas:
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
 }
-
-@media (max-width: 640px){
-    main{
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "daniel"
-            "jonathan"
-            "jeanette"
-            "patrick"
-            "kira";
-    }
 }
-
