@@ -138,9 +138,9 @@ main{
 
 
 
-@media (max-width: 375px){
+@media (max-width: 430px){
 main{
-    padding: 25px 16px 22px;
+    padding: 30px 16px 22px;
 grid-template-columns: 1fr;
 grid-template-areas:
     "daniel"
@@ -148,5 +148,8 @@ grid-template-areas:
     "jeanette"
     "patrick"
     "kira";
+}
+.card-daniel{
+background-image: none;
 }
 }
